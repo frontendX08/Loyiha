@@ -1,0 +1,99 @@
+.wrpper__head {
+    font-family: Cormorant Garamond;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 69.6px;
+    text-align: left;
+    color:#141414;
+    text-align: center;
+}
+
+.wrapper__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    color:#141414;
+    width: 1076px;
+    margin: 0 auto;
+}
+
+.wrapper__img {
+    width: 1296px;
+    height: 480px;
+    gap: 0px;
+    opacity: 0px;   
+    margin-left: 350px;    
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:769px) {
+    .wrpper__head {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .wrapper__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        width: 708px;
+    }
+
+    .wrapper__img {
+        width: 708px;
+        height: 320px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 30px;
+    } 
+    
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:361px) {
+    .wrpper__head {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 120px;
+    }
+
+    .wrapper__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        width: 340px;
+    }
+
+    .wrapper__img {
+        width: 330px;
+        height: 200px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 15px;
+    }  
+}
+
+@media only screen and (max-width:320px) {
+    .wrpper__head {
+        margin-top: 220px;
+    }
+
+    .wrapper__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        width: 310px;
+    }
+
+    .wrapper__img {
+        width: 310px;
+        height: 180px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 5px;
+    }  
+}
